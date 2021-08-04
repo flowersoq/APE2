@@ -1,0 +1,123 @@
+.Mer_bg {
+    border: 1px solid rgb(52, 15, 141);
+    width: 100%;
+    background-image: url(/img/MemBackground.png);
+    background-repeat: no-repeat;
+    /* background-position: left bottom; */
+    background-size: cover;
+    display: flex;
+}
+
+.mem_range {
+    border: 1px solid springgreen;
+    position: relative;
+    width: 80%;
+    min-width: 574px;
+    height: max-content;
+    padding: 5%;
+    margin: auto;
+    font-size: 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.service_rflower {
+    /* border: 1px solid darkblue; */
+    position: absolute;
+    height: 25%;
+    width: 9%;
+    right: -1%;
+    bottom: -3%;
+}
+
+.service_but {
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 2%;
+    width: 85%;
+    background-color: rgb(99, 86, 71);
+    right: -5.4%;
+    bottom: -3.3%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.memlist {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.memlist li {
+    /* border: 1px solid orchid; */
+    display: inline-block;
+    text-align: center;
+}
+
+.memlist li a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-top: rgb(255, 255, 255, 0.8);
+    padding: 2px 20px;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    position: relative;
+    color: #ccc;
+    bottom: 1px;
+}
+
+.memlist li a ::after {
+    content: "";
+    position: absolute;
+    width: calc(100% +2px);
+    height: 1px;
+    background-color: white;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+}
+
+.memlist li.active a {
+    border: 1px solid white;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.memlist>li>a>img {
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.memlist>li.active>a>img {
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.mempanel {
+    display: none;
+}
+
+.mempanel.active {
+    /* border: 1px solid slateblue; */
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding: 3%;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.mempanel.active label {
+    display: block;
+    font-size: 16px;
+}
+
+@media (max-width: 991.98px) {
+    .memlist li a {
+        font-size: 6px;
+    }
+    .memlist li img {
+        width: 70px;
+    }
+}

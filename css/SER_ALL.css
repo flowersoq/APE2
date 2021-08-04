@@ -1,0 +1,33 @@
+html {
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    height: 100%;
+    padding: 0% 2% 5% 2%;
+    width: calc(93% + 18px);
+    overflow: auto;
+}
+
+select.custom_select {
+    /* 清除掉預設外觀 */
+    appearance: none;
+    outline: none;
+    background: none;
+    border: 1px solid gray;
+    width: 32%;
+    padding: 5px 10px;
+    background-image: url("https://img.icons8.com/android/24/000000/down.png");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: right 8px center;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}

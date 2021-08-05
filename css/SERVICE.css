@@ -96,10 +96,52 @@
     position: absolute;
     height: 2%;
     width: 85%;
-    background-color: rgb(99, 86, 71);
+    background-color: #635647;
     right: -5.4%;
     bottom: -3.3%;
     border-radius: 5px 0px 0px 5px;
+}
+
+.icon {
+    /* border: 1px solid palevioletred; */
+    position: fixed;
+    right: 5.5%;
+    bottom: 8%;
+    width: 8%;
+    z-index: 1;
+}
+
+.icon span.tooltip {
+    white-space: nowrap;
+    display: inline-block;
+    background-color: #b08868d8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon span.tooltip::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+    border-top: 8px solid #b08868d8;
+    border-right: 8px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+section.icon:hover span.tooltip {
+    display: block;
 }
 
 @media (max-width: 991.98px) {
@@ -119,13 +161,7 @@
         height: 16%;
         width: 10%;
     }
-}
-
-.icom {
-    /*客服中心對話視窗*/
-    border: 1px solid lightgreen;
-    position: fixed;
-    right: 5.5%;
-    bottom: 10%;
-    font-size: 16px;
+    .icon {
+        font-size: 14px;
+    }
 }

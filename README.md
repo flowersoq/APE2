@@ -2,14 +2,18 @@
 
 TEST PUSH
 
-<h3>20210804</h3>
-<p>1. Members > html, CSS, JS all ready.</p>
-<p>2. Service > html, CSS, JS all ready.</p>
-
-<h3>20210805</h3>
-<p>1. fix Members CSS question: Asymmetry.</p>
-
+<ol>
+  <h3>20210804</h3>
+  <li>Members > html, CSS, JS all ready.</li>
+  <li>Service > html, CSS, JS all ready.</li>
+</ol>
+<ol>
+ <h3>20210805</h3>
+  <li>fix Members CSS question: Asymmetry.</li>
+</ol>
 <hr>
-<h3>EXPECT</h3>
-<p>1. Members > Detail, forget page.</p>
-<p>2. Service > other page test.</p>
+<ol>
+  <h3>EXPECT</h3>
+  <li>Members > Detail, forget page.</li>
+  <li>Service > other page test.</li>
+</ol>

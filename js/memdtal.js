@@ -1,5 +1,6 @@
 $(function() {
     $("form input").attr("disabled", true);
+    $("form select").attr("disabled", true);
     $(".btnSubmit").attr("disabled", true);
 
     $(".btnNew").click(function() {
@@ -9,9 +10,10 @@ $(function() {
     });
 
     $(".btnSubmit").click(function() {
-        // $("input").val("");
-        $(".btnSubmit").attr("disabled", true);
-        $(".btnNew").attr("disabled", false);
-        $("input").attr("disabled", true);
+        $("input").val("");
+        $(".btnSubmit").val('儲存');
+        $(".btnSubmit ").attr("disabled ", true);
+        $(".btnNew ").attr("disabled ", false);
+        $("input ").attr("disabled ", true);
     });
 });

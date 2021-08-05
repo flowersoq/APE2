@@ -26,7 +26,7 @@
 
 .service_left {
     /*左側欄大小*/
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     position: sticky;
     padding: 1%;
     width: 20%;
@@ -61,10 +61,10 @@
 
 .service_right {
     /*右側欄*/
-    border: 1px solid rgb(88, 44, 44);
+    /* border: 1px solid rgb(88, 44, 44); */
     position: relative;
     padding: 1% 2%;
-    width: 80%;
+    width: 78%;
     min-width: 515px;
     display: inline-block;
     box-sizing: border-box;

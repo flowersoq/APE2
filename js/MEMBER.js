@@ -16,3 +16,12 @@ $('.memlist').each(function() {
         }
     })
 });
+$('.memrightul').each(function() {
+    var memthis = $(this);
+    var memtab = memthis.find('li.active');
+    var memlink = memtab.find('a');
+    var mempanel = $(memlink.attr('href'));
+    memthis.on('click', '.memrightli', function(e) {
+        e.preventDefault();
+    })
+});

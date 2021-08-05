@@ -83,7 +83,7 @@
 }
 
 .memlist li a ::after,
-.memrightul li a::after {
+.memrightul li a ::after {
     content: "";
     position: absolute;
     width: calc(80% +2px);
@@ -99,7 +99,7 @@
     border: 1px solid rgb(255, 255, 255, 0.8);
     color: black;
     background-color: rgb(255, 255, 255, 0.8);
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .memlist>li>a>img,
@@ -136,9 +136,30 @@
     font-size: 16px;
 }
 
+.testa {
+    opacity: 0;
+}
+
 @media (max-width: 991.98px) {
     .service_rflower {
-        height: 10%;
+        height: 18%;
         width: 10%;
+    }
+    .memlist li a,
+    .memrightul li a {
+        font-size: 3px;
+    }
+    .memlist li.active a,
+    .memrightul li.active a {
+        font-size: 6px;
+    }
+    .memlist>li>a>img,
+    .memrightul>li>a>img {
+        opacity: 0.5;
+        width: 24%;
+    }
+    .memlist>li.active>a>img,
+    .memrightul>li.active>a>img {
+        opacity: 1;
     }
 }

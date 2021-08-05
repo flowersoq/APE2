@@ -3,11 +3,11 @@
 TEST PUSH
 
 <h3>20210804</h3>
-<p>1. Members > html, CSS, JS all ready!</p>
-<p>2. Service > html, CSS, JS all ready!</p>
+<p>1. Members > html, CSS, JS all ready.</p>
+<p>2. Service > html, CSS, JS all ready.</p>
 
 <h3>20210805</h3>
-<p>1. fix Members CSS question: Asymmetry</p>
+<p>1. fix Members CSS question: Asymmetry.</p>
 
 <hr>
 <h3>EXPECT</h3>

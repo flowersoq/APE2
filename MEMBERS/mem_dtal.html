@@ -71,38 +71,59 @@
             <section class="mem_range">
                 <img src="/img/flower.png" alt="SER_FLW" class="service_rflower">
                 <span class="service_but"></span>
-                <section class="memdtal">
-                    <section class="Data-Items">
-                        <input type="text" value="" placeholder="大頭貼" /><br />
-                        <!-- <input type="text" id="txt_birth" /><br />
-                        <input type="text" id="txt_phone" /><br />
-                        <input type="text" id="txt_id" /><br /> -->
+                <form action="">
+                    <section class="memdtal">
+                        <section class="Data-Items">
+                            <input class="locked memimg" type="image" value="" placeholder="大頭貼">
+                            <input class="locked" type="file" accept="image/*,.pdf">
+                        </section>
                     </section>
-                </section>
-                <section class="memdtal">
-                    <section class="Data-Items">
-                        <input type="text" value="" placeholder="會員編號 " /><br />
-                        <input type="email " value="" placeholder="Email Address 電子信箱 " /><br />
-                        <input type="text " value="" placeholder="Family Name 姓氏 " /><br />
-                        <input type="text " value="" placeholder="ID 身分證字號 " /><br />
-                        <input type="text " value="" placeholder="Gender 性別 " /><br />
-                        <input type="text " value="" placeholder="City 城市 " /><br />
-                        <input type="text " value="" placeholder="District 區域 " /><br />
-                        <input type="text " value="" placeholder="Address 地址 " /><br />
+                    <section class="memdtal ">
+                        <section class="Data-Items ">
+                            <input class="" type="text" value="" placeholder="會員編號" /><br />
+                            <input class="locked" type="email" value="" placeholder="Email Address 電子信箱" /><br />
+                            <input class="locked" type="text" value="" placeholder="Family Name 姓氏" /><br />
+                            <input class="locked" type="text" value="" placeholder="ID 身分證字號" /><br />
+                            <input class="locked" type="text" value="" placeholder="Gender 性別" /><br />
+                            <select class="memarrd locked">
+                            <option value="">City 城市</option>
+                            </select>
+                            <select class="memarrd locked">
+                            <option value="">District 區域</option>
+                        </select>
+                            <input class="locked" type="text " value="" placeholder="Address 地址" /><br />
+                        </section>
                     </section>
-                </section>
-                <section class="memdtal ">
-                    <section class="Data-Items ">
-                        <input type="text " value="" placeholder="User Name 會員帳號 " /><br />
-                        <input type="password " value="" placeholder="Pass Word 會員密碼 " /><br />
-                        <input type="text " value="" placeholder="First Name 名字 " /><br />
-                        <input type="phone " value="" placeholder="Telephone 手機 " /><br />
-                        <input type="phone " value="" placeholder="Year 出生年 " /><br />
-                        <input type="phone " value="" placeholder="Mouth 出生月 " /><br />
-                        <input type="phone " value="" placeholder="Day 出生日 " /><br />
-                        <input type="phone " value="" placeholder="Credit Card 信用卡號 " /><br />
+                    <section class="memdtal ">
+                        <section class="Data-Items ">
+                            <input class="locked" type="text" value="" placeholder="User Name 會員帳號" /><br />
+                            <input class="locked" type="password" alue="" placeholder="Pass Word 會員密碼" /><br />
+                            <input class="locked" type="text" value="" placeholder="First Name 名字" /><br />
+                            <input class="locked" type="phone" value="" placeholder="Telephone 手機" /><br />
+                            <select class="membd locked">
+                            <option value="">Year 出生年</option>
+                        </select>
+                            <select class="membd locked">
+                            <option value="">Mouth 出生月</option>
+                        </select>
+                            <select class="membd locked">
+                            <option value="">Day 出生日</option>
+                        </select>
+                            <input class="locked" type="phone " value="" placeholder="Credit Card 信用卡號" />
+                            <br />
+                            <p>前往
+                                <a href="#">會員中心</a>
+                            </p>
+                            <p>
+                                <label for=""></label>
+                                <input class="btnSubmit" type="submit" value="儲存">
+                            </p>
+                            <p>
+                                <button type="button" class="btnNew">修改</button>
+                            </p>
+                        </section>
                     </section>
-                </section>
+                </form>
             </section>
         </section>
     </article>
@@ -146,6 +167,7 @@
     </footer>
     <script src="/vendors/jquery/jquery-3.6.0.min.js "></script>
     <script src="/js/index.js "></script>
+    <script src="/js/memdtal.js "></script>
 </body>
 
 </html>

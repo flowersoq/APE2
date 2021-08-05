@@ -1,5 +1,5 @@
 .Mer_bg {
-    border: 1px solid rgb(52, 15, 141);
+    /* border: 1px solid rgb(52, 15, 141); */
     width: 100%;
     background-image: url(/img/MemBackground.png);
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 
 .mem_range {
-    border: 1px solid springgreen;
+    /* border: 1px solid springgreen; */
     position: relative;
     width: 80%;
     min-width: 574px;

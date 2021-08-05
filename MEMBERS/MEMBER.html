@@ -72,19 +72,20 @@
             <span class="service_but"></span>
             <section class="memleft">
                 <section class="mempanel active" id="memlogin">
-                    <label for="email" class="input-label">Email<input type="email" name="email" class="email" placeholder="Email"></label>
-                    <span class="mempop">XXX @ XXX.XXX</span>
-                    <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password"></label>
-                    <a href="" class="">Forgot password?</a>
-                    <button class="input-button">SING IN</button>
+                    <form action="/MEMBERS/mem_dtal.html" method="#" enctype="multipart/form-data">
+                        <label for="email" class="input-label">Email<input type="email" name="email" class="email" placeholder="Email"></label>
+                        <span class="mempop">XXX @ XXX.XXX</span>
+                        <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password"></label>
+                        <a href="" class="input-label">Forgot password?</a>
+                        <button class="input-button">SING IN</button>
+                    </form>
                 </section>
                 <section class="mempanel" id="coplogin">
-                    <section>
+                    <form action="" method="POST" enctype="multipart/form-data">
                         <label for="email" class="input-label">Email<input type="email" name="email" class="email" placeholder="Email"></label>
                         <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password"></label>
-                        <a href="" class="">Forgot password?</a>
+                        <a href="#" class="input-label">Forgot password? test</a>
                         <button class="input-button">SING IN</button>
-                    </section>
                 </section>
                 <ul class="memlist">
                     <li class="active">
@@ -97,10 +98,12 @@
             </section>
             <section class="memright">
                 <section class="memse active" id="signup">
-                    <label for="email" class="input-label">Email<input type="email" name="email" class="email" placeholder="Email"></label>
-                    <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password"></label>
-                    <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password 再次輸入密碼"></label>
-                    <button class="input-button">SING UP</button>
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <label for="email" class="input-label">Email<input type="email" name="email" class="email" placeholder="Email"></label>
+                        <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password"></label>
+                        <label for="password" class="input-label">Password<input type="password" name="password" class="password" placeholder="Password 再次輸入密碼"></label>
+                        <button class="input-button">SING UP</button>
+                    </form>
                 </section>
                 <section class="memse">
                     <label for="123">123</label>
@@ -111,7 +114,7 @@
                         <a class="memrightli" href=""><img src="/img/MemRegister.png" alt="register"><span>快速註冊</span></a>
                     </li>
                     <li>
-                        <a class="testa" href=""><img src="/img/MemSignin-title.png" alt="membersignin"><span>測試1</span></a>
+                        <a class="testa" href=""><img src="/img/MemSignin-title.png" alt="register"><span>測試11</span></a>
                     </li>
                 </ul>
             </section>

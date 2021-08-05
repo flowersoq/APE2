@@ -1,0 +1,48 @@
+.Mer_bg {
+    /* border: 1px solid rgb(52, 15, 141); */
+    width: 100%;
+    background-image: url(/img/MemBackground.png);
+    background-repeat: no-repeat;
+    /* background-position: left bottom; */
+    background-size: cover;
+    display: flex;
+}
+
+.mem_range {
+    /* border: 1px solid springgreen; */
+    position: relative;
+    width: 80%;
+    min-width: 574px;
+    height: max-content;
+    padding: 5%;
+    margin: auto;
+    font-size: 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.service_rflower {
+    /* border: 1px solid darkblue; */
+    position: absolute;
+    height: 25%;
+    width: 9%;
+    right: -1%;
+    bottom: -3%;
+}
+
+.service_but {
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    background-color: rgb(99, 86, 71);
+    right: -12%;
+    bottom: -3.3%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.a123 {
+    border: 1px solid palevioletred;
+    height: 60vh;
+}

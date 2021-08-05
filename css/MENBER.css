@@ -1,5 +1,5 @@
 .Mer_bg {
-    /* border: 1px solid rgb(52, 15, 141); */
+    border: 1px solid rgb(52, 15, 141);
     width: 100%;
     background-image: url(/img/MemBackground.png);
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 
 .mem_range {
-    /* border: 1px solid springgreen; */
+    border: 1px solid springgreen;
     position: relative;
     width: 80%;
     min-width: 574px;
@@ -45,11 +45,11 @@
 .memleft,
 .memright {
     /* border: 1px solid lightblue; */
-    /* position: relative; */
-    /* padding: 1%; */
+    position: relative;
     display: inline-block;
     width: 50%;
-    /* min-width: 150px; */
+    min-width: 150px;
+    font-size: 0;
 }
 
 .memlist,
@@ -86,7 +86,7 @@
 .memrightul li a ::after {
     content: "";
     position: absolute;
-    width: calc(80% +2px);
+    width: calc(100% +2px);
     height: 1%;
     background-color: rgb(255, 255, 255, 0.8);
     top: 1px;
@@ -99,7 +99,6 @@
     border: 1px solid rgb(255, 255, 255, 0.8);
     color: black;
     background-color: rgb(255, 255, 255, 0.8);
-    /* font-size: 16px; */
 }
 
 .memlist>li>a>img,
@@ -127,13 +126,13 @@
     padding: 3%;
     height: 60vh;
     min-height: 300px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .mempanel.active label,
 .memse.active label {
     display: block;
-    font-size: 16px;
 }
 
 .testa {

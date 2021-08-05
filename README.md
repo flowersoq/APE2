@@ -9,7 +9,8 @@ TEST PUSH
 </ol>
 <ol>
  <h3>20210805</h3>
-  <li>fix Members CSS question: Asymmetry.</li>
+  <li>Fix Members CSS question: Asymmetry.</li>
+  <li>Create members detail > html, CSS</li>
 </ol>
 <hr>
 <ol>
